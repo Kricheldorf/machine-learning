@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Machine Learning</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +24,37 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<!-- <section data-markdown="presentation.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n-\r?\n$" data-separator-notes="^Note:"></section> -->
+				<!-- Sobre aprendizado de máquina -->
+				<section>
+					<h1>Machine Learning</h1>
+					<h3>O futuro ou o fim da humanidade?</h3>
+				</section>
+				<section>
+					<h2>O que é aprendizado de máquina?</h2>
+					<section>
+						Este slide possue notas de apresentador (clique S e se surpreenda!).
+						<aside class="notes">
+							Oi, eu sou uma nota.
+						</aside>
+						<blockquote>
+							Campo de estudo que dá aos computadores a habilidade de aprender sem ser explicitamente programado.
+						</blockquote>
+						Arthur Samuel
+					</section>
+					<section>
+						<blockquote>
+							"Um programa de computador aprende dada experiência E com respeito a alguma classe de tarefa T e medida de desempenho D
+							se o seu desempenho na tarefa T, conforme medido por D, aumenta com a experiência E."
+						</blockquote>
+						Tom M. Mitchell
+					</section>
+				</section>
+				<section>
+					Matemática é legal
+					<br><br><br><br><br>
+					$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
+				</section>
 			</div>
 		</div>
 
@@ -37,11 +66,13 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				defaultTiming: 120,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/math/math.js', async: true }
 				]
 			});
 		</script>
