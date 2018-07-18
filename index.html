@@ -27,13 +27,18 @@
 				<!-- <section data-markdown="presentation.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n-\r?\n$" data-separator-notes="^Note:"></section> -->
 				<!-- Sobre aprendizado de máquina -->
 				<section>
-					<h1>Machine Learning</h1>
+					<h1>Aprendizado de Máquina</h1>
 					<h3>O futuro ou o fim da humanidade?</h3>
+				</section>
+				<section>
+						<h2>Sobre mim</h2>
+						<section>
+							Slide sobre mim
+						</section>
 				</section>
 				<section>
 					<h2>O que é aprendizado de máquina?</h2>
 					<section>
-						Este slide possue notas de apresentador (clique S e se surpreenda!).
 						<aside class="notes">
 							Oi, eu sou uma nota.
 						</aside>
@@ -51,9 +56,295 @@
 					</section>
 				</section>
 				<section>
-					Matemática é legal
-					<br><br><br><br><br>
-					$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
+					<h2> O que é aprendizado?	</h2>
+					<section>
+							<b>Segundo o dicionário:</b> <br>
+							Aprendizado: “ato ou efeito de aprender”
+							Aprender: “adquirir conhecimento (de), instruir-se”
+							<br><br>
+							<b>Sinônimo de aprendizado:</b> <br>
+							“estudo, aquisição, conhecimento”
+					</section>
+				</section>
+				<section>
+					<h2>O que é aprendizado de máquina?</h2>
+					<section>
+							Aprendizado de máquina é um ramo de Inteligência Artificial
+							<br><br>
+							Algoritmos que melhoram com a experiência 
+							Imitando o comportamento de aprendizado de humanos
+							<br><br>
+							Sistemas aprendem através de exemplos, dados e experiências
+					</section>
+					<section>
+							O sistema deixa de seguir regras pré-programadas para executar tarefas
+							<br><br>
+							Sistema aprende a realizá-las
+					</section>
+					<section>
+						<img data-src="/img/pipeline.png">
+					</section>
+				</section>
+				<section>
+					<h2> Histórico </h2>
+					<section>
+						1952 - 
+						Arthur Lee Samuel escreveu um programa para um computador jogar damas com humanos
+						Computador analisava o jogo e aprendia com os erros e acertos dos adversários 
+					</section>
+					<section>
+							1959 - 
+							Termo “Aprendizado de Máquina (Machine Learning)”
+							<br><br>
+							Habilidade do computador aprender sozinho
+					</section>
+					<section>
+							1990’s - 
+								Mineração de dados (Data Mining)
+								<br>
+								Softwares Adaptáveis, aplicações web
+								<br>
+								Aprendizado de texto, idiomas
+					</section>
+					<section>
+							2000’s - 	
+							Sistemas adaptativos	<br>
+							Reconhecimento de padrões <br>
+							Reconhecimento de voz, carros autônomos <br>
+					</section>
+					<section>
+							2016 - Laboratório de Medicina da Universidade de Tóquio <br><br>
+							IBM Watson: identifica tipo raro de leucemia <br><br>
+							Mais de 20 milhões de artigos científicos sobre câncer <br><br>
+							Diagnóstico em 10 minutos
+					</section>
+				</section>
+				<section>
+					<h2>Tipos de aprendizado</h2>
+					<ul>
+						<li>
+							Aprendizado Supervisionado
+						</li>
+						<li>
+							Aprendizado Não Supervisionado
+						</li>
+						<li>
+							Aprendizado por Reforço
+						</li>
+					</ul>
+				</section>
+				<section>
+						<h2>
+							Aprendizado Supervisionado
+						</h2>
+						<section>
+								Algoritmo observa alguns exemplos de pares de entrada e saída
+								<br><br>
+								O programa é “treinado” com um conjunto de exemplos.
+								Quando novos dados são fornecidos, a capacidade de chegar a uma conclusão é facilitada
+								<br><br>
+								Tarefa mais comum: classificação
+							</section>
+							<section>
+								Exemplo:
+								<br><br>
+								Pontuação de Crédito:
+									Diferenciar clientes de baixo risco e alto risco
+									análise de rendimento e poupança
+								<br><br>
+								<img data-src="/img/renda.png">
+							</section>
+							<section>
+								Exemplo:
+								<br><br>
+								Reconhecimento de caracteres
+								<br><br>
+								Reconhecimento de doenças
+							</section>
+							<section>
+									<h3>Classificação</h3>
+									As observações são acompanhadas por labels que indicam as classes
+									<br><br>
+									Algoritmos:
+									<ul>
+										<li>K-Nearest Neighbors</li>
+										<li>Kernel discriminant analysis</li>
+										<li>Redes Neurais Artificiais</li>
+										<li>Máquina de Vetores de Suporte</li>
+										<li>Florestas Aleatórias</li>
+									</ul>
+							</section>
+							<section>
+									<h3>Regressão</h3>
+									Tarefas de regressão trabalham com a estimação de valores numéricos contínuos
+									<br><br>
+									Dada uma imagem de homem/mulher, temos de prever sua idade com base em dados da imagem <br>
+									Preços de casas, estoque <br> 
+									Tempo de estadia de um paciente no hospital <br> 
+									Relação entre temperatura e dureza do material <br> 
+									
+							</section>
+							<section>
+									<h3>Regressão</h3>
+
+									Algoritmos:<br>
+									<ul>
+										<li>Árvores de Regressão</li>
+										<li>Kernel Regression</li>
+										<li>Gaussian process regression</li>
+										<li>Regressão Linear</li>
+									</ul>
+							</section>
+						</section>
+					</section>
+				<section>
+					<h2>
+						Aprendizado Não Supervisionado
+					</h2>
+					<section>
+							Algoritmo aprende padrões e relações em um conjunto de dados
+							<br><br>
+							Tarefa mais comum: agrupamento
+						</section>
+						<section>
+							Exemplo:
+							Análise de um conjunto de dados de e-mails e agrupamento automático de e-mails relacionados a um determinado tema
+							sem conhecimento prévio sobre os dados
+						</section>
+						<section>
+								<h3>Agrupamento</h3>
+								Sem classes predefinidas <br>
+								Um conjunto de observações é dado com o propósito de estabelecer classes ou clusters <br><br>
+								<ul>
+									<li>Mean-shift</li>
+									<li>Agrupamento Hierárquico</li>
+									<li>K-means</li>
+									<li>Topic Models</li>
+								</ul>
+						</section>
+					</section>
+				</section>
+				<section>
+					<h2>
+						Aprendizado Por Reforço
+					</h2>
+					<section>
+							Algoritmo aprende a partir da interação com o ambiente no qual está inserido
+							<br><br>
+							Para acontecer o aprendizado:
+							<br><br>
+							Algoritmo percebe as recompensas e as mudanças no estado decorrentes das ações realizadas e decisões tomadas
+						</section>
+						<section>
+							Exemplo: <br><br>
+							Falta de gorjeta ao final de uma corrida de táxi:
+								indica que algo saiu errado
+						</section>
+					</section>
+				</section>
+				<section>
+					<h2>Por dentro do modelo</h2>
+					<section>
+						<h3>Algebra linear</h3>
+						<img data-src="/img/algebralinear.png">
+						<br>
+						Pontos no espaço e distância e transformação entre eles
+					</section>
+					<section>
+						<h3>Cálculo</h3>
+						<img data-src="/img/calculo.png">
+						<br>
+						Minimização de erros e ajustes de parâmetros
+					</section>
+					<section>
+						<h3>Bicho de 7 cabeças?</h3>
+						<img data-src="/img/code_math.png">
+					</section>
+					<section>
+						<h3>Bicho de 7 cabeças?</h3>
+						<img data-src="/img/table.png">
+					</section>
+				</section>
+				<section>
+					<h2>Importância</h2>
+					<section>
+						O que bebês tem a ver com cerveja?
+					</section>
+					<section>
+							Uma das maiores redes de varejo dos Estados Unidos descobriu que a venda de 
+							fraldas descartáveis estava associada à de cerveja
+							<br><br>
+							Em geral, os compradores eram homens, que saíam 
+							à noite para comprar fraldas e aproveitavam para 
+							levar algumas latinhas para casa
+					</section>
+					<section>
+						<h3> Automatização </h3>
+						Inferência de regras observando dados <br> (programação implícita)
+					</section>
+					<section>
+						<h3> Máquinas inteligêntes! </h3>
+						<img data-src="/img/chess.png">
+						<br>
+						O que é ser inteligênte?
+					</section>
+					<section>
+						<h3> Recomendação </h3>
+						<img data-src="/img/recomendacao.png">
+					</section>
+					<section>
+						<h3> E muito mais! </h3>
+						<img width="300" height="300" data-src="/img/fraldes.png">
+						<img width="300" height="300" data-src="/img/translate.png">							
+						<img width="300" height="300" data-src="/img/car.png">
+					</section>
+				</section>
+				<section>
+					<h2>Ferramentas</h2>
+					<section>
+						<ul>
+							<li>RapidMiner</li>
+							<li>Weka</li>
+							<li>Scikit-learn</li>
+							<li>Orange</li>
+							<li>Pandas</li>
+							<li>E muitas outras!</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>Próximos 5 ou 10 anos...</h2>
+					<section>
+						<h3>Na sociedade</h3>
+							Auxílio para diagnósticos mais rápidos e precisos<br>
+							Planos de ensino personalizados para cada aluno<br>
+							Melhorar alertas de emergências (ex: inundações)<br>
+					</section>
+					<section>
+							<h3>Nos Negócios</h3>
+							Criação de produtos e serviços personalizados <br>
+							Melhorar o desenvolvimento de medicamentos <br>
+							Uso mais eficiente de energia e transporte <br>
+					</section>
+				</section>
+				<section>
+					<h2>Considerações finais</h2>
+					<section>
+							O aprendizado de máquina não é recente, mas começou a ser explorado de forma intensa por consequência do poder computacional
+							<br><br>
+							A escolha do método de aprendizado depende do problema a ser resolvido
+							<br><br>
+							Os algoritmos de aprendizado são bastante limitados quando comparados com a capacidade do ser humano
+					</section>
+					<section>
+							O Aprendizado de Máquina já está presente no cotidiano nas mais diversas formas e no futuro terá um papel muito importante
+							<br><br>
+							Existem diversas ferramentas open-source para estudo e aplicação de machine learning – facilidade de acesso
+					</section>
+				</section>
+				<section>
+					<h3>Dúvidas?</h3>
+					<h2>Muito obrigado!</h2>
 				</section>
 			</div>
 		</div>
