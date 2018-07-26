@@ -36,11 +36,19 @@
 							<h3>Guilherme Kricheldorf</h3>
 							<img width="230px" height="300px" data-src="/img/foto.jpeg">
 							<h4>Desenvolvedor Frontend</h4>
+							<aside class="notes">
+								Quem tem contato diario com ml?
+							</aside>
 						</section>
 				</section>
 				<section>
 					<h2>Importância</h2>
-					<section><h3>Para que serve?</h3></section>
+					<section>
+						<h3>Para que serve?</h3>
+						<aside class="notes">
+							Para responder, farei outra pergunta
+						</aside>
+					</section>
 					<section>
 						O que bebês tem a ver com cerveja?
 					</section>
@@ -51,6 +59,10 @@
 							Em geral, os compradores eram homens, que saíam 
 							à noite para comprar fraldas e aproveitavam para 
 							levar algumas latinhas para casa
+							<aside class="notes">
+								colocar cerveja perto de fralda <br>
+								vender mais
+							</aside>
 					</section>
 					<section>
 						<h3> Automatização </h3>
@@ -61,16 +73,48 @@
 						<img data-src="/img/chess.png">
 						<br>
 						O que é ser inteligente?
+						<aside class="notes">
+							inteligente para uma coisa só
+						</aside>
 					</section>
 					<section>
 						<h3> Recomendação </h3>
 						<img data-src="/img/recomendacao.png">
+						<aside class="notes">
+							base nas caracteristicas do usuário
+						</aside>
+					</section>
+					<section>
+						<h3> Uber </h3>
+						<img height="90%" width="50%" data-src="/img/uber.jpg">
+						<br>
+						Segurança da viagem
+						<aside class="notes">
+							caracteristicas do usuario, local, comentarios anteriores
+						</aside>
+					</section>
+					<section data-background="/img/mc.png">
+						<aside class="notes">
+							propaganda
+						</aside>
+					</section>
+					<section>
+						<h2>Propaganda</h2>
+						<aside class="notes">
+							milhoes de anuncios / anunciantes <br>
+							escolher qual anuncio mostrar
+						</aside>
 					</section>
 					<section>
 						<h3> E muito mais! </h3>
 						<img width="300" height="300" data-src="/img/fraldes.png">
 						<img width="300" height="300" data-src="/img/translate.png">							
 						<img width="300" height="300" data-src="/img/car.png">
+						<aside class="notes">
+							fraldes de cartão -- transação incomum <br>
+							tradução de textos <br>
+							carros autonomos -- detecção de rota -- previsão colisão <br>
+						</aside>
 					</section>
 				</section>
 				<section>
@@ -79,6 +123,9 @@
 						<h3>1952</h3>
 						Arthur Lee Samuel escreveu um programa para um computador jogar damas com humanos
 						<br>Computador analisava o jogo e aprendia com os erros e acertos dos adversários 
+						<aside class="notes">
+							aprender com erros e acertos
+						</aside>
 					</section>
 					<section>
 							<h3>1959</h3> 
@@ -92,7 +139,7 @@
 								<br>
 								Softwares Adaptáveis, aplicações web
 								<br>
-								Aprendizado de texto, idiomas
+								Aprendizado de texto, idiomas (processamento de linguagem natural)
 					</section>
 					<section>
 							<h3>2000’s</h3> 	
@@ -121,9 +168,6 @@
 				<section>
 					<h2>O que é aprendizado de máquina?</h2>
 					<section>
-						<aside class="notes">
-							Oi, eu sou uma nota.
-						</aside>
 						<blockquote>
 							Campo de estudo que dá aos computadores a habilidade de aprender sem ser explicitamente programado.
 						</blockquote>
@@ -143,6 +187,12 @@
 							Imitando o comportamento de aprendizado de humanos
 							<br><br>
 							Sistemas aprendem através de exemplos, dados e experiências
+							<aside class="notes">
+								ramo de ia <br>
+								melhora com xp <br>
+								imita aprendizado humano <br>
+								dados, exemplos, experiencias
+							</aside>
 					</section>
 					<section>
 							O sistema deixa de seguir regras pré-programadas para executar tarefas
@@ -193,79 +243,72 @@
 								<img data-src="/img/renda.png">
 							</section>
 							<section>
-								Exemplo:
-								<br><br>
-								Reconhecimento de caracteres
-								<br><br>
-								Reconhecimento de doenças
-							</section>
-							<section>
 									<h3>Classificação</h3>
-									As observações são acompanhadas por labels que indicam as classes
+									As observações são acompanhadas por rótulos que indicam as classes
 							</section>
-							<section>
+							<section id="fragments">
 									<h3>Classificação - Exemplo</h3>
 									<img height="300px" width="400px" data-src="/img/porco.jpg"/>
 									<img height="300px" width="400px" data-src="/img/gato.jpg"/>
 									<br>
-									Porco ou gato? (0 ou 1)
+									<span class="fragment highlight-green">Porco</span> ou <span class="fragment highlight-blue">gato</span>? (<span class="fragment highlight-green">0</span> ou <span class="fragment highlight-blue">1</span>)
 							</section>
-							<section>
-									<h3>Classificação - Exemplo</h3>
-									<table>
-											<thead>
-												<tr>
-													<th>Dado</th>
-													<th>Perna curta</th>
-													<th>Rabo comprido</th>
-													<th>Peludo</th>
-													<th>Gordinho</th>
-													<th>Classe</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>1</td>
-													<td>X</td>
-													<td></td>
-													<td></td>
-													<td>X</td>
-													<td>0</td>
-												</tr>
-												<tr>
-													<td>2</td>
-													<td></td>
-													<td>X</td>
-													<td>X</td>
-													<td></td>
-													<td>1</td>
-												</tr>
-												<tr>
-													<td>3</td>
-													<td></td>
-													<td>X</td>
-													<td></td>
-													<td>X</td>
-													<td>1</td>
-												</tr>
-												<tr>
-													<td>4</td>
-													<td>X</td>
-													<td>X</td>
-													<td></td>
-													<td></td>
-													<td>0</td>
-												</tr>
-												<tr>
-													<td>5</td>
-													<td>X</td>
-													<td>X</td>
-													<td>X</td>
-													<td>X</td>
-													<td>1</td>
-												</tr>
-											</tbody>
-										</table>
+							<section id="fragments">
+								<h3>Classificação - Exemplo</h3>
+								<table>
+									<thead>
+										<tr>
+											<th>Dado</th>
+											<th>Perna curta</th>
+											<th>Rabo comprido</th>
+											<th>Peludo</th>
+											<th>Gordinho</th>
+											<th>Classe</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="fragment">
+											<td>1</td>
+											<td>X</td>
+											<td></td>
+											<td></td>
+											<td>X</td>
+											<td class="fragment"><span style="color: green">0</span></td>
+										</tr>
+										<tr class="fragment">
+											<td>2</td>
+											<td></td>
+											<td>X</td>
+											<td>X</td>
+											<td></td>
+											<td class="fragment"><span style="color: blue">1</span></td>
+										</tr>
+										<tr class="fragment">
+											<td>3</td>
+											<td></td>
+											<td>X</td>
+											<td></td>
+											<td>X</td>
+											<td class="fragment"><span style="color: blue">1</span></td>
+										</tr>
+										<tr class="fragment">
+											<td>4</td>
+											<td>X</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td class="fragment"><span style="color: green">0</span></td>
+										</tr>
+										<tr class="fragment">
+											<td>5</td>
+											<td>X</td>
+											<td>X</td>
+											<td></td>
+											<td></td>
+											<td class="fragment"><span style="color: blue">1</span></td>
+										</tr>
+									</tbody>
+								</table>
 							</section>
 							<section>
 									<h3>Regressão</h3>
@@ -274,6 +317,9 @@
 									Dada uma imagem de homem/mulher, temos de prever sua idade com base em dados da imagem <br>
 									Preços de casas <br> 
 									Tempo de estadia de um paciente no hospital <br> 
+									<aside class="notes">
+										historico do paciente, sintomas, genetica
+									</aside>
 							</section>
 						</section>
 					</section>
@@ -295,74 +341,74 @@
 								<h3>Agrupamento</h3>
 								Agrupamento de dados com base em características em comum
 						</section>
-						<section>
+						<section id="fragments">
 								<h3>Agrupamento - Exemplo</h3>
 								<img height="300px" width="400px" data-src="/img/porco.jpg"/>
 								<img height="300px" width="400px" data-src="/img/gato.jpg"/>
 								<br>
-								Porco ou gato? (0 ou 1)
+								<span class="fragment highlight-green">Porco</span> ou <span class="fragment highlight-blue">gato</span>? (<span class="fragment highlight-green">0</span> ou <span class="fragment highlight-blue">1</span>)
 						</section>
-						<section>
+						<section id="fragments">
 							<h3>Agrupamento - Exemplo</h3>
 							<table>
-									<thead>
-										<tr>
-											<th>Dado</th>
-											<th>Perna curta</th>
-											<th>Rabo comprido</th>
-											<th>Peludo</th>
-											<th>Gordinho</th>
-											<th>Classe</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>X</td>
-											<td></td>
-											<td></td>
-											<td>X</td>
-											<td>?</td>
-										</tr>
-										<tr>
-											<td>2</td>
-											<td></td>
-											<td>X</td>
-											<td>X</td>
-											<td></td>
-											<td>?</td>
-										</tr>
-										<tr>
-											<td>3</td>
-											<td></td>
-											<td>X</td>
-											<td></td>
-											<td>X</td>
-											<td>?</td>
-										</tr>
-										<tr>
-											<td>4</td>
-											<td>X</td>
-											<td>X</td>
-											<td></td>
-											<td></td>
-											<td>?</td>
-										</tr>
-										<tr>
-											<td>5</td>
-											<td>X</td>
-											<td>X</td>
-											<td>X</td>
-											<td>X</td>
-											<td>?</td>
-										</tr>
-									</tbody>
-								</table>
+								<thead>
+									<tr>
+										<th>Dado</th>
+										<th>Perna curta</th>
+										<th>Rabo comprido</th>
+										<th>Peludo</th>
+										<th>Gordinho</th>
+										<th>Classe</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="fragment">
+										<td>1</td>
+										<td>X</td>
+										<td></td>
+										<td></td>
+										<td>X</td>
+										<td class="fragment"><span style="color: red">?</span></td>
+									</tr>
+									<tr class="fragment">
+										<td>2</td>
+										<td></td>
+										<td>X</td>
+										<td>X</td>
+										<td></td>
+										<td class="fragment"><span style="color: red">?</span></td>
+									</tr>
+									<tr class="fragment">
+										<td>3</td>
+										<td></td>
+										<td>X</td>
+										<td></td>
+										<td>X</td>
+										<td class="fragment"><span style="color: red">?</span></td>
+									</tr>
+									<tr class="fragment">
+										<td>4</td>
+										<td>X</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="fragment"><span style="color: red">?</span></td>
+									</tr>
+									<tr class="fragment">
+										<td>5</td>
+										<td>X</td>
+										<td>X</td>
+										<td></td>
+										<td></td>
+										<td class="fragment"><span style="color: red">?</span></td>
+									</tr>
+								</tbody>
+							</table>
 						</section>
-						<section>
+						<section id="fragments">
 							<h3>Agrupamento - Exemplo</h3>
-							0 -> Porco <br><br>
-							1 -> Gato 
+							0 -> <span class="fragment"><span style="color: green">Porco</span></span> <br><br>
+							1 -> <span class="fragment"><span style="color: blue">Gato</span></span> 
 						</section>
 					</section>
 				</section>
@@ -376,9 +422,11 @@
 							Para acontecer o aprendizado:
 							<br><br>
 							Algoritmo percebe as recompensas e as mudanças no estado decorrentes das ações realizadas e decisões tomadas
+							<aside class="notes">bebe mordendo o pé</aside>
 						</section>
 						<section>
-							Exemplo: <br><br>
+							<img height="500" width="300" data-src="/img/rewards.jpeg">
+							<br>
 							Google Rewards - Verificar se o Algoritmo percebeu corretamente o local visitado
 						</section>
 					</section>
@@ -413,6 +461,16 @@
 					</section>
 				</section>
 				<section>
+					<h2>Aprendizado de Máquina na prática!</h2>
+					<section>
+							<a href="https://storage.googleapis.com/tfjs-examples/webcam-transfer-learning/dist/index.html">Pac-man</a>
+							<br><br>
+							<a href="https://teachablemachine.withgoogle.com/">Classificador Webcam</a>
+							<br><br>
+							Classificador
+					</section>
+				</section>
+				<section>
 					<h2>Considerações finais</h2>
 					<section>
 							O aprendizado de máquina não é recente, mas começou a ser explorado de forma intensa por consequência do poder computacional
@@ -420,11 +478,20 @@
 							A escolha do método de aprendizado depende do problema a ser resolvido
 							<br><br>
 							Os algoritmos de aprendizado são bastante limitados quando comparados com a capacidade do ser humano
+							<aside class="notes">
+								ml não é recente -- poder computacional barato <br>
+								algoritmo depende do problema -- regressão / classificacao <br>
+								algoritmo limitado comparado a humano
+							</aside>
 					</section>
 					<section>
 							O Aprendizado de Máquina já está presente no cotidiano nas mais diversas formas e no futuro terá um papel muito importante
 							<br><br>
 							Existem diversas ferramentas open-source para estudo e aplicação de machine learning – facilidade de acesso
+							<aside class="notes">
+								presente no cotidiano <br>
+								futuro promissor e importante <br>
+							</aside>
 					</section>
 				</section>
 				<section>
