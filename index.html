@@ -29,6 +29,10 @@
 				<section>
 					<h1>Aprendizado de Máquina</h1>
 					<h3>O futuro ou o fim da humanidade?</h3>
+					<aside class="notes">
+						machine learning vs apr. de maquina <br>
+						valorizar nosso idioma
+					</aside>
 				</section>
 				<section>
 						<h2>Sobre mim</h2>
@@ -124,6 +128,7 @@
 						Arthur Lee Samuel escreveu um programa para um computador jogar damas com humanos
 						<br>Computador analisava o jogo e aprendia com os erros e acertos dos adversários 
 						<aside class="notes">
+							aprendizado de máquina é recente? <br>
 							aprender com erros e acertos
 						</aside>
 					</section>
@@ -137,9 +142,12 @@
 							<h3>1990’s</h3> 
 								Mineração de dados (Data Mining)
 								<br>
-								Softwares Adaptáveis, aplicações web
+								Aplicações web
 								<br>
 								Aprendizado de texto, idiomas (processamento de linguagem natural)
+								<aside class="notes">
+									aplicações web - geração maior de dados
+								</aside>
 					</section>
 					<section>
 							<h3>2000’s</h3> 	
@@ -234,17 +242,14 @@
 								Tarefa mais comum: classificação
 							</section>
 							<section>
-								Exemplo:
-								<br><br>
-								Pontuação de Crédito:
-									Diferenciar clientes de baixo risco e alto risco
-									análise de rendimento e poupança
-								<br><br>
-								<img data-src="/img/renda.png">
-							</section>
-							<section>
 									<h3>Classificação</h3>
 									As observações são acompanhadas por rótulos que indicam as classes
+									<aside class="notes">
+										analogia com aprendizado humano<br>
+										pais falam que é errado responder para eles, avó, tio, tia<br>
+										ninguem falou sobre policiais<br>
+										percebemos isso atraves de conhecimentos passados
+									</aside>
 							</section>
 							<section id="fragments">
 									<h3>Classificação - Exemplo</h3>
@@ -309,6 +314,9 @@
 										</tr>
 									</tbody>
 								</table>
+								<aside class="notes">
+									google photos - cachorro, etc..
+								</aside>
 							</section>
 							<section>
 									<h3>Regressão</h3>
@@ -323,23 +331,29 @@
 							</section>
 						</section>
 					</section>
-				<section>
+					<section>
 					<h2>
 						Aprendizado Não Supervisionado
 					</h2>
 					<section>
 							Algoritmo aprende padrões e relações em um conjunto de dados
+							<aside class="notes">
+								associação -> lavar mais a mão, menos gripe<br>
+								não sair no sereno com cabelo molhado, menos dor de garganta <br>
+								comer menos e me exercitar mais, mais eu emagreço<br>
+								horário de pico -> preço do uber é mais caro
+							</aside>
 							<br><br>
 							Tarefa mais comum: agrupamento
 						</section>
 						<section>
-							Exemplo:
-							Análise de um conjunto de dados de e-mails e agrupamento automático de e-mails relacionados a um determinado tema
-							sem conhecimento prévio sobre os dados
-						</section>
-						<section>
 								<h3>Agrupamento</h3>
 								Agrupamento de dados com base em características em comum
+						</section>
+						<section>
+							<h3>Agrupamento - Exemplo</h3>
+							Análise de um conjunto de dados de e-mails e agrupamento automático de e-mails relacionados a um determinado tema
+							sem conhecimento prévio sobre os dados
 						</section>
 						<section id="fragments">
 								<h3>Agrupamento - Exemplo</h3>
@@ -422,7 +436,10 @@
 							Para acontecer o aprendizado:
 							<br><br>
 							Algoritmo percebe as recompensas e as mudanças no estado decorrentes das ações realizadas e decisões tomadas
-							<aside class="notes">bebe mordendo o pé</aside>
+							<aside class="notes">
+								apanhar dos pais <br>
+								bebe mordendo a mão ou o pé
+							</aside>
 						</section>
 						<section>
 							<img height="500" width="300" data-src="/img/rewards.jpeg">
@@ -443,21 +460,6 @@
 							<li>Pandas</li>
 							<li>E muitas outras!</li>
 						</ul>
-					</section>
-				</section>
-				<section>
-					<h2>Próximos 5 ou 10 anos...</h2>
-					<section>
-						<h3>Na sociedade</h3>
-							Auxílio para diagnósticos mais rápidos e precisos<br>
-							Planos de ensino personalizados para cada aluno<br>
-							Melhorar alertas de emergências (ex: inundações)<br>
-					</section>
-					<section>
-							<h3>Nos Negócios</h3>
-							Criação de produtos e serviços personalizados <br>
-							Melhorar o desenvolvimento de medicamentos <br>
-							Uso mais eficiente de energia e transporte <br>
 					</section>
 				</section>
 				<section>
@@ -495,6 +497,13 @@
 					</section>
 				</section>
 				<section>
+					<aside class="notes">
+						breve introdução <br>
+						viés <br>
+						superajustamento e subajustamento (overfitting e undefitting) <br>
+						redes neurais <br>
+						arvores de decisão
+					</aside>
 					<h3>Dúvidas?</h3>
 					<h2>Muito obrigado!</h2>
 				</section>
@@ -509,7 +518,9 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
-				defaultTiming: 120,
+				defaultTiming: 60,
+				slideNumber: 'c/t',
+				showSlideNumber: 'speaker',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
